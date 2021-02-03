@@ -1,0 +1,20 @@
+{
+    "name": "nameem8825/wedevs",
+    "description": "learn with tarek hasan plugin tutorial",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "naeem6288",
+            "email": "naeemkhan.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "wedevs\\": "includes/"
+        },
+        "files":["includes/Functions.php"]
+    }
+}
